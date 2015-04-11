@@ -15,9 +15,10 @@ for (p,q,r,s) in faces:
     face_gray = gray_img[q:q+s, p:p+r] 
     face_color = img[q:q+s, p:p+r] 
     eyes = eye_cascade.detectMultiScale(face_gray) 
+    print eyes
     for (ep,eq,er,es) in eyes:
         cv2.rectangle(face_color,(ep,eq),(ep+er,eq+es), (0,255,0),2)
 
 cv2.imshow('img',img)
-cv2.waitKey(0)
+cv2.waitKey()
 cv2.destroyAllWindows()
