@@ -7,4 +7,4 @@ Overlay any face in a camera stream with `img{#}.jpg`. Replace `img{#}.jpg` with
 Git clone the repo and run `python main.py`
 
 
-We rewrote the code in Javascript for Bitcamp '15 submission. Completed project could be found (here)[https://github.com/chelseavalentine/Stardazed].
+We rewrote the code in Javascript for Bitcamp '15 submission. Completed project could be found [here](https://github.com/chelseavalentine/Stardazed).
